@@ -22,11 +22,15 @@ Ensure all necessary packages are installed by running:
 
 > Baseline Debiased model : `python bin/train_debiased.py  config/Mayo.json logdir/logdir_debiased --num_workers 8 --device_ids "0,1"  --pre_train "config/pre_train.pth"  --logtofile True`
 
-> Ablation study 
+> Ablation study :
 >> Baseline Causal model : `python bin/train_baselinecausal.py  config/Mayo.json logdir/logdir_causal --num_workers 8 --device_ids "0,1"  --pre_train "config/pre_train.pth"  --logtofile True`
+>> 
 >> Baseline Confounder model : `python bin/train_conf.py  config/Mayo.json logdir/logdir_causal --num_workers 8 --device_ids "0,1"  --pre_train "config/pre_train.pth"  --logtofile True`
+>> 
 >> Causal model (Baseline Causal model+causal feature concat): `python bin/train_causal.py  config/Mayo.json logdir/logdir_causal --num_workers 8 --device_ids "0,1"  --pre_train "config/pre_train.pth"  --logtofile True`
+>> 
 >> Causal+Confounder model (Baseline Causal model+Baseline Confounder model) : `python bin/train_causalconf_noconcat.py config/Mayo.json logdir/logdir_causalconf_noconcat --num_workers 8 --device_ids "0,1"  --pre_train "config/pre_train.pth"  --logtofile True`
+>> 
 >> Final Causal+Confounder model (Baseline Causal model+Baseline Confounder model with causal feature concat) : `python bin/train_causalconf.py config/Mayo.json logdir/logdir_causalconf --num_workers 8 --device_ids "0,1"  --pre_train "config/pre_train.pth"  --logtofile True`
 
 * Model Testing
