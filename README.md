@@ -1,19 +1,13 @@
 # Mitigating Bias in Medical imaging with Causal Reasoning - a MACE prediction case-study
+This study aims to mitigate bias in medical imaging by incorporating causal reasoning. We leverage a well-performed [pretrained model](https://github.com/jfhealthcare/Chexpert/tree/master) to enhance the robustness and fairness of predictions.
 
 ### Model framework and Causal graph 
 
 * Model overview:
-![Model framework](https://github.com/OrchidPi/Mitigating-Bias-in-Medical-imaging-with-Causal-Reasoning/blob/main/config/Causal%20Framework.png)
+<img src="https://github.com/OrchidPi/Mitigating-Bias-in-Medical-imaging-with-Causal-Reasoning/blob/main/config/Causal%20Framework.png" width="100%" align="middle"/>
 
 * Causal graph:
-![Causal Graph](https://github.com/OrchidPi/Mitigating-Bias-in-Medical-imaging-with-Causal-Reasoning/blob/main/config/Causal%20Graph.png)
-
-
-### Train the models
-
-# Mitigating Bias in Medical imaging with Causal Reasoning - a MACE prediction case-study
-
-This study aims to mitigate bias in medical imaging by incorporating causal reasoning. We leverage a well-performed [pretrained model](https://github.com/jfhealthcare/Chexpert/tree/master) to enhance the robustness and fairness of predictions.
+<img src="https://github.com/OrchidPi/Mitigating-Bias-in-Medical-imaging-with-Causal-Reasoning/blob/main/config/Causal%20Graph.png" width="50%" align="middle"/>
 
 ### Train the models
 
