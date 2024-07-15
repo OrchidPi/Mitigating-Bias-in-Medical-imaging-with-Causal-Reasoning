@@ -39,10 +39,7 @@ To test your model, run the example command:
 
 * Grad-CAM figure
 To plot Grad-CAM figure, run the example command:
-> example: python Grad-CAM/main_new.py --network densenet121 --weight-path /logdir/logdir_causalconf/best2.ckpt --class-id 1
-
-
-
+> `python Grad-CAM/main_new.py --network densenet121 --weight-path /logdir/logdir_causalconf/best2.ckpt --class-id 1`
 
 ### Contact
 * If you have any quesions, please post it on github issues or email [me](jialupi@asu.edu)
