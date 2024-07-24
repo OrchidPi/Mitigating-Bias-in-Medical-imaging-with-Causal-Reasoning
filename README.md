@@ -38,8 +38,7 @@ To test your model, run the example command:
 > `python logdir/logdir_causalconf/classification/bin/test_internal.py`
 
 * Grad-CAM figure
-To plot Grad-CAM figure, run the example command:
-> `python Grad-CAM/main_new.py --network densenet121 --weight-path /logdir/logdir_causalconf/best2.ckpt --class-id 1`
+To plot a Grad-CAM figure, you can refer to the [code from this GitHub repository](https://github.com/adityac94/Grad_CAM_plus_plus/tree/master).
 
 ### Contact
 * If you have any quesions, please post it on github issues or email [me](jialupi@asu.edu)
