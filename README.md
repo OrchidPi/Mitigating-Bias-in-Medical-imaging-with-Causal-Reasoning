@@ -46,5 +46,6 @@ To plot a Grad-CAM figure, you can refer to the [code from this GitHub repositor
 ### Reference
 * [https://github.com/jfhealthcare/Chexpert/tree/master](https://github.com/jfhealthcare/Chexpert/tree/master)
 * [https://github.com/zhihengli-UR/DebiAN](https://github.com/zhihengli-UR/DebiAN)
+* [https://github.com/adityac94/Grad_CAM_plus_plus/tree/master](https://github.com/adityac94/Grad_CAM_plus_plus/tree/masterhttps://github.com/adityac94/Grad_CAM_plus_plus/tree/master)
 
 
